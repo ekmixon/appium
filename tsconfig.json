@@ -6,7 +6,8 @@
       "@appium/support": ["support"],
       "@appium/base-driver": ["base-driver"],
       "appium": ["appium"],
-      "@appium/types": ["types"]
+      "@appium/types": ["types"],
+      "@appium/docutils": ["docutils"]
     },
     "noEmit": true
   },
@@ -15,6 +16,7 @@
     {"path": "packages/types"},
     {"path": "packages/support"},
     {"path": "packages/base-driver"},
-    {"path": "packages/appium"}
+    {"path": "packages/appium"},
+    {"path": "packages/docutils"}
   ]
 }
